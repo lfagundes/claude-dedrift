@@ -1,0 +1,30 @@
+{
+  "name": "claude-dedrift",
+  "version": "0.1.0",
+  "description": "Patch the Claude Code CLI so your CLAUDE.md and provided context are always treated as relevant, and keep it patched across auto-updates.",
+  "bin": {
+    "claude-dedrift": "bin/claude-dedrift.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "node test/patch.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cli",
+    "patch",
+    "context"
+  ],
+  "license": "MIT"
+}
